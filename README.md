@@ -22,6 +22,9 @@ Go ahead and select the JavaScript tab and you'll see some JavaScript code
 
 ```javascript
 //Enter querySelector Code here
+var header = document.querySelector("#header").innerHTML
+var linkText = document.querySelector("#left").querySelector("a").text
+var linkHref = document.querySelector("#left").querySelector("a")
 
 
 
